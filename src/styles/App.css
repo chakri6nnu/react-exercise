@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  width: 25%;
+  border-right: 1px solid;
+  height: 100vh;
+  padding: 20px;
+}
+
+.application-wrap {
+  width: 75%;
+}
+.application-list {
+  display: grid;
+  grid-gap: 5px;
+  justify-content: start;
+  grid-auto-flow: column;
+  padding: 5px;
+  margin: 0 0 0 auto;
+}
+
+.application-item {
+  border: 1px solid;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.application-item {
+  margin-bottom: 10px;
+}
+
+.tree-view {
+  height: 50vh;
+  overflow-y: auto;
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
